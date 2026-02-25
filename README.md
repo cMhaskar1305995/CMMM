@@ -21,12 +21,19 @@ Whether you are building new pipelines, experimenting with molecular descriptors
 
 ## Repository Structure  
 /pipelines/        # End-to-end molecular modeling workflows
+
 /functions/        # Reusable utilities and helper modules
+
 /data/
+
     /raw/          # Unprocessed molecular data
+    
     /intermediate/ # Pipeline outputs and temporary files
+    
     /processed/    # Cleaned and finalized datasets
+    
 /docs/             # Documentation, notes, and references
+
 /tests/            # Unit tests for functions and pipelines
 
 ## Getting Started  
